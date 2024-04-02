@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-item active"><a class="nav-link" href="services" id="service">Services</a></li>
+
+        <li><a href="join-us.html">Join Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#" id="switch-to-en">English</a></li>
+      <li><a href="#" id="switch-to-ar">العربية</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="available-jobs">
+      <h1>Available Jobs</h1>
+      <ul>
+        <li>Project Manager</li>
+        <li>Architect</li>
+        <li>Construction Engineer</li>
+      </ul>
+    </section>
+    <section id="apply-now">
+      <h2>Apply Now</h2>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="cv">Upload CV:</label>
+        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Construction Company. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
